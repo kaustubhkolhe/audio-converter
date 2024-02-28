@@ -1,5 +1,5 @@
 // Checks if the directory has write permission
-package org.example;
+package com.converter;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
