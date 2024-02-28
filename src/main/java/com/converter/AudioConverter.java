@@ -6,8 +6,9 @@ import java.io.IOException;
 public class AudioConverter {
 
     public static void main(String[] args) {
-        String sourceDirectory = "C:\\Users\\Kaustubh\\JIO Internship\\Audio converter\\inputData";
-        String destinationDirectory = "C:\\Users\\Kaustubh\\JIO Internship\\Audio converter\\processed_data";
+        String sourceDirectory = System.getProperty("user.home") + "\\JIO Internship\\Audio converter\\inputData";
+        String destinationDirectory = System.getProperty("user.home") + "\\JIO Internship\\Audio converter\\processed_data";
+
 
         convertAudioFiles(sourceDirectory, destinationDirectory);
     }
